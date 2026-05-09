@@ -1,0 +1,39 @@
+.setup-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 40px;
+}
+
+.setup-table td {
+  padding: 16px 0;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 14px;
+}
+
+.setup-table td:first-child {
+  width: 50px;
+  text-align: center;
+}
+
+.setup-table td:nth-child(2) {
+  font-weight: 600;
+  width: 150px;
+}
+
+.setup-table td:last-child {
+  color: #666;
+}
+
+.setup-icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+.header {
+  margin-bottom: 40px;
+}

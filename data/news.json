@@ -1,0 +1,13 @@
+{
+  "news": [
+    {
+      "title": "Copy.fail Exploit",
+      "date": "2026-5-1",
+      "icon": "",
+      "category": "security",
+      "source": "Copy Fail",
+      "summary": "CVE-2026-31431, commonly known as Copy Fail, is a vulnerability in the Linux kernel that allows unauthorized privilege escalation, disclosed by security firm Theori to the public on 29 April 2026 and to the Linux kernel security team five weeks prior. This 10-line Python exploit blends into normal system activity via standard system calls it was later ported to other languages.",
+      "url": "https://copy.fail"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>news - csharpmf</title>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/news.css">
+</head>
+<body>
+
+<div class="container">
+  <nav class="nav">
+    <a href="index.html">home</a>
+    <a href="stack.html">stack</a>
+    <a href="setup.html">setup</a>
+    <a href="github.html">projects</a>
+    <a href="blog.html">blog</a>
+    <a href="news.html">news</a>
+  </nav>
+
+  <div class="header">
+    <div class="prompt">csmf@arch:~$ curl news.json</div>
+    <h1># news</h1>
+  </div>
+
+  <div class="filters">
+    <button class="filter-btn active" data-filter="all">all</button>
+    <button class="filter-btn" data-filter="tech">tech</button>
+    <button class="filter-btn" data-filter="dev">dev</button>
+    <button class="filter-btn" data-filter="security">security</button>
+    <button class="filter-btn" data-filter="world">world</button>
+  </div>
+
+  <div class="news-grid" id="newsGrid">
+    <div class="loading">Loading news...</div>
+  </div>
+
+  <div class="footer">
+    csmf@arch:~/ $
+  </div>
+</div>
+
+<script src="js/news.js"></script>
+
+</body>
+</html>

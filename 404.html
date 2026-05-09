@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 - csharpmf</title>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/404.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="error-code">404</div>
+  <div class="prompt">csmf@arch:~$ ls /page</div>
+  <h1>page not found</h1>
+  <div class="message">
+    The requested resource does not exist in this directory.<br>
+    Check the path or navigate back to a valid location.
+  </div>
+
+  <div class="terminal">
+    <div class="terminal-line">
+      <span class="terminal-prompt">$</span> <span class="terminal-command">cat error.log</span>
+    </div>
+    <div class="terminal-line" style="color: #d73a49;">
+      Error: ENOENT: no such file or directory
+    </div>
+    <div class="terminal-line" style="color: #666;">
+      errno: -2, code: 'ENOENT'
+    </div>
+  </div>
+
+  <div class="links">
+    <a href="index.html" class="link">← home</a>
+    <a href="github.html" class="link">projects</a>
+    <a href="stack.html" class="link">stack</a>
+  </div>
+</div>
+
+</body>
+</html>

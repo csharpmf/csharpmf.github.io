@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>blog - csharpmf</title>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+
+<div class="container">
+  <nav class="nav">
+    <a href="index.html">home</a>
+    <a href="stack.html">stack</a>
+    <a href="setup.html">setup</a>
+    <a href="github.html">projects</a>
+    <a href="blog.html">blog</a>
+    <a href="news.html">news</a>
+  </nav>
+
+  <div class="header">
+    <div class="prompt">csmf@arch:~$ cat ~/blog/*</div>
+    <h1># blog</h1>
+  </div>
+
+  <div class="filters">
+    <button class="filter-btn active" data-filter="all">all</button>
+    <button class="filter-btn" data-filter="recent">recent</button>
+    <button class="filter-btn" data-filter="oldest">oldest</button>
+  </div>
+
+  <div class="posts-grid" id="postsGrid">
+    <div class="loading">Loading posts...</div>
+  </div>
+
+  <div class="footer">
+    csmf@arch:~/ $
+  </div>
+</div>
+
+<script src="js/blog.js"></script>
+
+</body>
+</html>

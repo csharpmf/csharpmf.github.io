@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  text-align: center;
+}
+
+.error-code {
+  font-size: 120px;
+  font-weight: 700;
+  letter-spacing: -5px;
+  margin-bottom: 20px;
+  opacity: 0.1;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.message {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 40px;
+  line-height: 1.8;
+}
+
+.terminal {
+  background: #f8f8f8;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  text-align: left;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+.terminal-line {
+  margin-bottom: 8px;
+}
+
+.terminal-prompt {
+  color: #666;
+}
+
+.terminal-command {
+  color: #000;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10px 20px;
+  border: 1px solid #e0e0e0;
+  transition: all 0.2s;
+}
+
+.link:hover {
+  border-color: #999;
+  background: #f8f8f8;
+}
